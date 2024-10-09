@@ -6,7 +6,8 @@
 #define col 16 // Definição do número de colunas do display
 #define lin  2 // Definição do número de linhas do display
 #define ende  0x27 // Definição do endereço do display
-
+//Porta SDA: A4
+//Porta SCL: A5
 LiquidCrystal_I2C lcd(ende, col, lin); // Criação do objeto para o display I2C
 
 // Definição dos pinos utilizados pelo MAX31855
