@@ -11,7 +11,7 @@
 LiquidCrystal_I2C lcd(ende, col, lin); // Criação do objeto para o display I2C
 
 // Definição dos pinos utilizados pelo MAX31855
-int thermoDO = 3;  // Pino de saída de dados (MISO) 
+int thermoDO = 12;  // Pino de saída de dados (MISO) 
 int thermoCS = 4;  // Pino de Chip Select (CS) 
 int thermoCLK = 5; // Pino de clock (CLK) 
 
